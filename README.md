@@ -12,6 +12,7 @@ flatpak --user install gnome org.freedesktop.Platform 1.4
 
 To test this, do:
 ```
+sudo dnf install flatpak flatpak-builder ostree
 make
 flatpak --user remote-add --no-gpg-verify local-spotify repo
 flatpak --user install local-spotify com.spotify.Client
